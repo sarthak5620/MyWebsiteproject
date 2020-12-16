@@ -1,0 +1,75 @@
+/*navigation bar*/
+.navbar{
+    flex-direction: column;
+}
+.navbar ul li a{
+    font-size: 13px;
+    padding: 0px 5px;
+    justify-content: center;
+}
+
+#logo {
+    margin: 10px auto;
+}
+
+.nav-inner{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+
+/*container*/
+
+
+.btn{
+    padding: 0px 5px;
+    margin: -2px auto;
+    font-size: 0.8rem;
+    border-radius: 10px;
+    cursor:pointer;
+    width: 19%;
+}
+
+
+
+/*services-container*/
+.contain{
+    flex-direction: column;
+}
+
+
+/*Partners-container*/
+.Partners-container{
+    overflow: hidden;
+}
+
+.sponsor-img img {
+    height: 50px;
+    width: 50px;
+    padding: 7px;
+    margin: 12px auto;
+}
+
+
+/*contact-container*/
+
+
+/*footer*/
+footer{
+    font-size: 13px;
+}
+
+/*utility classes*/
+
+.h-primary {
+    font-size: 2rem;
+}
+
+.h-seconday{
+    font-size: 1rem;
+}
+
+.h-tertiary{
+    font-size: 2rem;
+}
